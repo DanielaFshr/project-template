@@ -28,6 +28,11 @@ yours, the structure is not. Keep the files and directories as shown below.
 | `data/` | Datasets — `track_2a` and `track_2b` only; its contents stay out of git |
 | `docs/` | Diagrams, notes, longer write-ups |
 
+Everything data related goes inside `data/` — the datasets, fixtures, samples
+and evaluation sets that make sense for your challenge. Keep large or
+non-redistributable files out of git (see `.gitignore`) and say in
+`technical_report.md` where they came from.
+
 `make run` has to spin up your project from its root:
 
 ```bash
