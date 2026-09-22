@@ -22,7 +22,6 @@ Each one is a complete, self-contained project skeleton:
 | --- | --- |
 | `README.md` | Your project write-up — fill in every section |
 | `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
-| `submission.yml` | Submission metadata the organizers use to index projects |
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
 | `docs/` | Diagrams, notes, longer write-ups |
@@ -31,7 +30,7 @@ Each one is a complete, self-contained project skeleton:
 
 1. Click **Use this template** to create your own repository.
 2. Pick the directory for your track.
-3. Fill in its `README.md` and `submission.yml`.
+3. Fill in its `README.md` and `technical_report.md`.
 4. Make `make run` work from a clean checkout.
 
 ## License
