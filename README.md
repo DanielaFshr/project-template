@@ -9,10 +9,10 @@ same things in the same place.
 This repository has one directory per track. **Work only inside the directory
 for the track you are competing in** and leave the others untouched:
 
-- `track_1/`
-- `track_2/`
-- `track_3/`
-- `track_4/`
+- `track_1a/`
+- `track_1b/`
+- `track_2a/`
+- `track_2b/`
 
 ## What goes in a track directory
 
