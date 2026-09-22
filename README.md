@@ -1,8 +1,8 @@
 # Hack Apertus — project template
 
 Template repository for [Hack Apertus](https://hackapertus.ch/) submissions.
-Every project keeps the same layout, so organizers and judges find the same
-things in the same place.
+Every project keeps almost the same layout, so organizers and judges find the
+same things in the same place.
 
 ## Select your track
 
