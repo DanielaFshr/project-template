@@ -24,8 +24,10 @@ Diagrams and longer write-ups go in [`docs/`](docs/).
 ## Run it
 
 ```bash
-# clone, install, run — the shortest path from zero to a working demo
+make run
 ```
+
+Fill in the [Makefile](Makefile) so that works from a clean checkout.
 
 Requirements: `runtime, hardware, API keys, model weights`
 

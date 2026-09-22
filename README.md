@@ -1,37 +1,37 @@
-# Project name
+# Hack Apertus — project template
 
-> One sentence: what it does, and for whom.
+Template repository for [Hack Apertus](https://hackapertus.ch/) submissions.
+Every project keeps the same layout, so organizers and judges find the same
+things in the same place.
 
-**Track:** Apertus Readiness | Apertus Adoption
-**Event:** Online | Bern | Zurich | Basel | Lausanne | St.Gallen
-**Team:** `team name` — `member`, `member`, `member`
-**Demo:** `link to video, deployment, or notebook`
+## Select your track
 
-## Problem
+This repository has one directory per track. **Work only inside the directory
+for the track you are competing in** and leave the others untouched:
 
-What is broken today, and why it matters in a Swiss / sovereign-infrastructure context.
+- `track_1/`
+- `track_2/`
+- `track_3/`
+- `track_4/`
 
-## Solution
+## What goes in a track directory
 
-What you built. Two or three paragraphs, or a short list. Say explicitly how
-Apertus is used — which model, which task, what it replaces.
+Each one is a complete, self-contained project skeleton:
 
-## How it works
+| Path | What it is |
+| --- | --- |
+| `README.md` | Your project write-up — fill in every section |
+| `submission.yml` | Submission metadata the organizers use to index projects |
+| `Makefile` | `make run` must spin up your project |
+| `src/` | Your code |
+| `docs/` | Diagrams, notes, longer write-ups |
 
-A short architecture note: components, data flow, external services.
-Diagrams and longer write-ups go in [`docs/`](docs/).
+## Getting started
 
-## Run it
-
-```bash
-# clone, install, run — the shortest path from zero to a working demo
-```
-
-Requirements: `runtime, hardware, API keys, model weights`
-
-## Status
-
-What works, what is a stub, and what you would build next.
+1. Click **Use this template** to create your own repository.
+2. Pick the directory for your track.
+3. Fill in its `README.md` and `submission.yml`.
+4. Make `make run` work from a clean checkout.
 
 ## License
 
