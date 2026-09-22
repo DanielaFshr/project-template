@@ -25,6 +25,7 @@ yours, the structure is not. Keep the files and directories as shown below.
 | `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
+| `data/` | Datasets — `track_2a` and `track_2b` only; its contents stay out of git |
 | `docs/` | Diagrams, notes, longer write-ups |
 
 `make run` has to spin up your project from its root:

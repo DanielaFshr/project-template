@@ -9,7 +9,8 @@
 *.gguf
 *.ckpt
 *.pt
-data/
+/data/*
+!/data/.gitkeep
 
 # Python
 __pycache__/
