@@ -21,6 +21,7 @@ Each one is a complete, self-contained project skeleton:
 | Path | What it is |
 | --- | --- |
 | `README.md` | Your project write-up — fill in every section |
+| `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
 | `submission.yml` | Submission metadata the organizers use to index projects |
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
