@@ -23,7 +23,7 @@ Diagrams and longer write-ups go in [`docs/`](docs/).
 
 ## Run it
 
-This directory is the root of the project. From here:
+From the root of the project:
 
 ```bash
 make run

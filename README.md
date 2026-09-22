@@ -6,28 +6,18 @@ same things in the same place.
 
 ## Select your track
 
-This repository has one directory per track:
+This repository holds one example project per track:
 
 - `track_1a/`
 - `track_1b/`
 - `track_2a/`
 - `track_2b/`
 
-Pick the one for the track you are competing in and **treat it as the root
-directory of your project**. All your code, config and dependencies live inside
-it — nothing goes at the top level, and the other three directories stay
-untouched.
+Take the one for the track you are competing in and use it as the template for
+your project. **Rename it to whatever your project is called** — the name is
+yours, the structure is not. Keep the files and directories as shown below.
 
-`make run` has to spin up your project from inside that directory:
-
-```bash
-cd track_1a   # the directory for your track
-make run
-```
-
-## What goes in a track directory
-
-Each one is a complete, self-contained project skeleton:
+## The structure
 
 | Path | What it is |
 | --- | --- |
@@ -37,12 +27,19 @@ Each one is a complete, self-contained project skeleton:
 | `src/` | Your code |
 | `docs/` | Diagrams, notes, longer write-ups |
 
+`make run` has to spin up your project from its root:
+
+```bash
+cd my-project   # your renamed copy of the track directory
+make run
+```
+
 ## Getting started
 
 1. Click **Use this template** to create your own repository.
-2. Pick the directory for your track — from here on, it is your project root.
+2. Take the directory for your track and rename it to your project.
 3. Fill in its `README.md` and `technical_report.md`.
-4. Make `make run` work from inside it, on a clean checkout.
+4. Make `make run` work from its root, on a clean checkout.
 
 ## License
 
