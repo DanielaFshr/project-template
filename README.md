@@ -1,11 +1,11 @@
-# <Project name>
+# Project name
 
 > One sentence: what it does, and for whom.
 
 **Track:** Apertus Readiness | Apertus Adoption
 **Event:** Online | Bern | Zurich | Basel | Lausanne | St.Gallen
-**Team:** <team name> — <member>, <member>, <member>
-**Demo:** <link to video, deployment, or notebook>
+**Team:** `team name` — `member`, `member`, `member`
+**Demo:** `link to video, deployment, or notebook`
 
 ## Problem
 
@@ -27,7 +27,7 @@ Diagrams and longer write-ups go in [`docs/`](docs/).
 # clone, install, run — the shortest path from zero to a working demo
 ```
 
-Requirements: <runtime, hardware, API keys, model weights>
+Requirements: `runtime, hardware, API keys, model weights`
 
 ## Status
 
