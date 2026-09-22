@@ -23,11 +23,13 @@ Diagrams and longer write-ups go in [`docs/`](docs/).
 
 ## Run it
 
+This directory is the root of the project. From here:
+
 ```bash
 make run
 ```
 
-Fill in the [Makefile](Makefile) so that works from a clean checkout.
+Fill in the [Makefile](Makefile) so that works on a clean checkout.
 
 Requirements: `runtime, hardware, API keys, model weights`
 

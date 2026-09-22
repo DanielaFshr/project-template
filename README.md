@@ -6,13 +6,24 @@ same things in the same place.
 
 ## Select your track
 
-This repository has one directory per track. **Work only inside the directory
-for the track you are competing in** and leave the others untouched:
+This repository has one directory per track:
 
 - `track_1a/`
 - `track_1b/`
 - `track_2a/`
 - `track_2b/`
+
+Pick the one for the track you are competing in and **treat it as the root
+directory of your project**. All your code, config and dependencies live inside
+it — nothing goes at the top level, and the other three directories stay
+untouched.
+
+`make run` has to spin up your project from inside that directory:
+
+```bash
+cd track_1a   # the directory for your track
+make run
+```
 
 ## What goes in a track directory
 
@@ -29,9 +40,9 @@ Each one is a complete, self-contained project skeleton:
 ## Getting started
 
 1. Click **Use this template** to create your own repository.
-2. Pick the directory for your track.
+2. Pick the directory for your track — from here on, it is your project root.
 3. Fill in its `README.md` and `technical_report.md`.
-4. Make `make run` work from a clean checkout.
+4. Make `make run` work from inside it, on a clean checkout.
 
 ## License
 
