@@ -19,7 +19,8 @@ Apertus is used — which model, which task, what it replaces.
 ## How it works
 
 A short architecture note: components, data flow, external services.
-Diagrams and longer write-ups go in [`docs/`](docs/).
+Diagrams and longer write-ups go in [`docs/`](docs/). Everything data related —
+datasets, fixtures, evaluation sets — goes in [`data/`](data/).
 
 ## Run it
 
