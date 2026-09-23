@@ -18,14 +18,8 @@ This challenge accepts submissions that find and document where Apertus underper
 
 ## 🔧 Resources & Tools
 
-<<<<<<< HEAD
 Check our resources & tools page for detailed information:
 https://hackapertus.notion.site/resources-tools
-=======
-A short architecture note: components, data flow, external services.
-Diagrams and longer write-ups go in [`docs/`](docs/). Everything data related —
-datasets, fixtures, evaluation sets — goes in [`data/`](data/).
->>>>>>> origin/track1_data
 
 📑 You can learn more about AI Red Teaming in this [playbook](https://drive.google.com/file/d/14AKKZ57AyrxtW3t1sPhoKsM1o5Km4Tui/view) and [course](https://www.linkedin.com/learning/ai-evaluations-for-everyone-how-non-engineers-can-build-better-ai-systems-with-humane-intelligence) from Humane Intelligence.
 
