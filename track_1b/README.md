@@ -62,7 +62,7 @@ http://hackapertus.ch/online-hack/submissions
 
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
-2. follow the specified input/output format
+2. follow the specified input/output formats
 3. run in a docker container that is launched with the specified CLI entry point 
 4. run end-to-end when judges try to run it
 
@@ -80,9 +80,10 @@ The submission must:
 Submitted datasets must comply with our guidelines for responsibly sourced datasets.
 
 - Create a user account on Hugging Face
-- Clone our dataset template on Hugging Face: {LINK follows}
-- Complete the data card with all required information.
-- Make sure your dataset accessibility is set to public
+- Clone our dataset template on Hugging Face: https://huggingface.co/datasets/HackApertus/online_hack_template
+- Complete the data card with all required information
+- Upload your evaluation dataset and model response dataset
+- Make sure your dataset access control is set to public
 - Provide the URL of _your_ data set
 
 ### Reproducibility
