@@ -1,51 +1,59 @@
 # Technical report — `project name`
 
-A deeper write-up than the README: what you built, how it works, and what the
-numbers say.
+> Three sentence summary: The use case, your dataset, and your key evaluation results.
 
-## 1. Summary
+**Track:** Apertus Readiness  - Track 1B  
+**Event:** Online  
+**Team:** `team name` — `member`, `member`, `member`  
+**Demo:** `link to video, deployment, or notebook`  
 
-The problem, your approach, and the headline result in one paragraph.
+----
 
-## 2. Architecture
-
-Components, data flow, and where each one runs. Put diagrams in [`docs/`](docs/)
-and reference them here.
-
-## 3. Use of Apertus
+### Use of Apertus
 
 - **Model:** `e.g. swiss-ai/Apertus-70B-Instruct-2509`
 - **How it is used:** inference | fine-tuning | evaluation | red-teaming
 - **Where it runs:** `local weights, hosted endpoint, ...`
 
-Prompts, adapters, quantisation, serving stack — whatever a reader needs to
-rebuild your setup.
+----
+## Use Case Description
 
-## 4. Data
+Why the dataset was collected, the use case that it evaluates and why this use case matters.
 
-What you used, where it came from, and its licence. Flag anything personal or
-non-redistributable, and keep it out of the repository (see `.gitignore`).
+## Dataset Summary
 
-## 5. Evaluation
+Clear specifications for the dataset. Description of what makes it representative for the use case. Descriptive statistics of the dataset across variables of interest.
 
-How you measured success: task, metric, baseline.
+## Data Collection Method
 
-| Setup | Metric | Result |
-| --- | --- | --- |
-| Baseline | | |
-| Ours | | |
+Motivation of design choices. Description of the data collection, curation and cleaning methods, the annotation method for ground truth labels and if relevant, instructions provided to annotators for creating the ground truth and annotating LLM responses.
 
-## 6. Limitations
+If data was collected from human subjects or contains sensitive or personally identifiable information, the method for obtaining consent must be clearly described.
 
-Where it breaks, what you did not test, and known failure modes.
+## Dataset Details
 
-## 7. Reproducibility
+All relevant details related to dataset quality, ethics, licensing and legal considerations. 
 
-What a judge needs to get your numbers back: hardware, runtime, seeds, and the
-exact commit. `make run` should do the rest.
+## Evaluation
 
-## 8. Next steps
+### Method
+Evaluation method clearly described.
 
-What you would build with another month.
+### Results
+Evaluation results clearly presented.
+
+## Dataset Limitations
+
+## Lessons Learnt and Recommendations
+
+How you would improve the dataset. What insights the dataset presents on how the model can be improved for your use case.
+
+## Reproducibility
+
+What a judge needs to get your numbers back: hardware, runtime, seeds, and the exact commit. `make run` should do the rest.
+
+## License
+
+Apache-2.0 — see [LICENSE](LICENSE). All HackApertus projects are open-sourced.
 
 ## References

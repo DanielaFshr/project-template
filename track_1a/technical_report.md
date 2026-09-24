@@ -2,8 +2,8 @@
 
 > Three sentence summary: The problem, your approach, and the headline result.
 
-**Track:** Apertus Readiness | Apertus Adoption  
-**Event:** Online | Bern | Zurich | Basel | Lausanne | St.Gallen  
+**Track:** Apertus Readiness - Track 1A  
+**Event:** Online   
 **Team:** `team name` — `member`, `member`, `member`  
 **Demo:** `link to video, deployment, or notebook`  
 
@@ -38,9 +38,9 @@ Clear motivation of design choices, the red-teaming method and iterative refinem
 
 Enumerate the issues captured in your findings files.
 
-## Lessons Learnt
+## Lessons Learnt and Recommendations
 
-What you would build with another month.
+What issues you would investigate next, knowing what you know now.
 
 ## Reproducibility
 
