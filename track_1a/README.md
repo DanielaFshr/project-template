@@ -2,7 +2,7 @@
 
 Track 1 is focused on improving the multimodal Apertus v1.5 8B and 70B models. There are two different paths. Path A focuses on red-teaming Apertus. Submissions can focus either on the 8B or 70B model.
 
-The submission must comply with the HackApertus T&C. For this challenge it is essential that you pay particular attention to the conditions for responsibly sourced datasets.
+The submission must comply with the [HackApertus T&C](https://hackapertus.ch/terms-and-conditions). For this challenge it is essential that you pay particular attention to the conditions for responsibly sourced datasets.
 
 ## 🎯 The Challenge
 
@@ -23,10 +23,10 @@ https://hackapertus.notion.site/resources-tools
 
 📑 You can learn more about AI Red Teaming in this [playbook](https://drive.google.com/file/d/14AKKZ57AyrxtW3t1sPhoKsM1o5Km4Tui/view) and [course](https://www.linkedin.com/learning/ai-evaluations-for-everyone-how-non-engineers-can-build-better-ai-systems-with-humane-intelligence) from Humane Intelligence.
 
-| Recommended platforms | Both cloud and local |
-| --- | --- |
-| AI models | Apertus v1.5 — 8B or 70B |
-| Model sources | huggingface.co/swiss-ai/Apertus-v1.5-8B huggingface.co/swiss-ai/Apertus-v1.5-70B |
+| Models           | URL                                      |
+|------------------|------------------------------------------|
+| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
+| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 ---
 
@@ -44,7 +44,7 @@ The submission must:
 ### Git repo (URL)
 - Clone this repo and work in the `\track_1a` challenge directory. Delete the other track challenge directories.
 - Set the repo to PRIVATE.
-- Submit the URL of YOUR Git repo.
+- Submit the URL of _your_ Git repo.
 
 ### Technical Report (pdf)
 - Update [technical_report.md](technical_report.md) in this repository with all the details for your submission.
@@ -54,7 +54,7 @@ The submission must:
 
 ### Findings Dataset (URL)
 - This challenge follows the submission format of the [Red‑Teaming Challenge - OpenAI gpt-oss-20b](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
-- Each issue must be captured in its own findings file.
+- Each issue must be captured in its own findings file (adapted from Red-Teaming Challenge).
 - The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](example_findings.json)
 - A submission can consist of up to 5 findings files.
 - Submit the URL to `track_1a/data`.
