@@ -49,4 +49,4 @@ make run
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE). All Hack Apertus projects are open-sourced.
+All Hack Apertus projects are open-sourced. Please check our Terms & Conditions for specific licensing details (6. What you build is open source): https://hackapertus.ch/terms-and-conditions
