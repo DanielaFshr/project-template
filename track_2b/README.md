@@ -16,14 +16,17 @@ Check our resources & tools page for detailed information:
 
 ---
 
-## 💻 Technical Preferences
+## 🔧 Resources & Tools
 
-| Specific AI models | Apertus v1.5 — 8B or 70B |
-| --- | --- |
-| Model sources | [huggingface.co/swiss-ai/Apertus-v1.5-8B](https://huggingface.co/swiss-ai/Apertus-v1.5-8B)
-[huggingface.co/swiss-ai/Apertus-v1.5-70B](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+Check our resources & tools page for detailed information:
+https://hackapertus.notion.site/resources-tools
+
+| Models           | URL                                      |
+|------------------|------------------------------------------|
+| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
+| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+
 | Target architecture (mandatory) | Whatever you build in Track 2B must be deployable in one of these three architectures:
-
   a) On-premise — on the organisation's own infrastructure, under its own administration.
   b) Air-gapped — with no external network connection at runtime.
   c) Sovereign Swiss cloud — on a cloud platform operated in Switzerland, under Swiss jurisdiction, with Swiss data residency. |
