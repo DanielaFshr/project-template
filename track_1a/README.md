@@ -2,7 +2,7 @@
 
 Track 1 is focused on improving the multimodal Apertus v1.5 8B and 70B models. There are two different paths. Path A focuses on red-teaming Apertus. Submissions can focus either on the 8B or 70B model.
 
-The submission must comply with the [HackApertus T&C](https://hackapertus.ch/terms-and-conditions). For this challenge it is essential that you pay particular attention to the conditions for responsibly sourced datasets.
+The submission must comply with the [HackApertus T&C](https://hackapertus.ch/terms-and-conditions).
 
 ## 🎯 The Challenge
 
@@ -37,27 +37,29 @@ http://hackapertus.ch/online-hack/submissions
 
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
-2. including findings that follow the specified schema
+2. include all relevant findings files in `\track_1a\data` with each file following the specified schema
 3. run in a docker container that is launched with the specified CLI entry point 
 4. run end-to-end when judges try to run it
 
+Your findings files must be shared under a CDLA-Permissive-2.0 license. However, submissions must be kept private until 1 December 2026.
+
 ### Git repo (URL)
 - Clone this repo and work in the `\track_1a` challenge directory. Delete the other track challenge directories.
-- Set the repo to PRIVATE.
+- Set the repo to PRIVATE (Settings --> Collaborators --> Manage Visibility)
+- Add user hackapertus as collaborator (Settings --> Collaborators --> Add people)
 - Submit the URL of _your_ Git repo.
 
 ### Technical Report (pdf)
 - Update [technical_report.md](technical_report.md) in this repository with all the details for your submission.
 - Upload a pdf of your technical report to this directory, named as `TeamName_Report.pdf`.
-- Format: pdf, max. 4 pages
+- Format: pdf, max. 6 pages
 - Submit the pdf of the technical report.
 
-### Findings Dataset (URL)
+### Findings Dataset
 - This challenge follows the submission format of the [Red‑Teaming Challenge - OpenAI gpt-oss-20b](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
 - Each issue must be captured in its own findings file (adapted from Red-Teaming Challenge).
 - The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](example_findings.json)
 - A submission can consist of up to 5 findings files.
-- Submit the URL to `track_1a/data`.
 
 ### Reproducibility
 
@@ -92,7 +94,6 @@ The total score for the team is calculated from two parts. Part 1 is the sum of 
 | **Report Clarity and Communication** *(× N/2)* | **0:** Poorly organized with major gaps or unreadable sections.<br>**1:** Basic structure but difficult to follow.<br>**2:** Clear narrative with minor ambiguities.<br>**5:** Polished writing with well-chosen figures; concise.<br>**10:** Publication-quality document with compelling visualisations and flawless flow. |
 | **Code Quality** *(× N/2)* | **1:** Only submission files shared.<br>**2:** Useful shared notebook or package with basic documentation.<br>**5:** Well-documented package, Apache-2.0 licence, basic tests.<br>**10:** Plug-and-play package that can be adopted in the next iteration of the hackathon; excellent docs. |
 
-
 ## Support
 
 ### Licensing requirements
@@ -104,7 +105,5 @@ https://hackapertus.ch/terms-and-conditions
 
 ### Contact
 
-💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
-
-❓For questions specific to challenge participation, you can send a message to support@hackapertus.ch.
+💬 In case you have questions, join the conversation on Discord. Alternatively, send an email to “hello@hackapertus.ch”.
 
