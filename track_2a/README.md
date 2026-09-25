@@ -1,26 +1,21 @@
-# Project name
+# Academia Challenges
 
-> One sentence: what it does, and for whom.
+Submissions must use the Apertus model family.
+For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, e.g as automatic judges during evaluation. Their role must be clearly described in the submission report.
 
-**Track:** Apertus Readiness | Apertus Adoption
-**Event:** Online | Bern | Zurich | Basel | Lausanne | St.Gallen
-**Team:** `team name` — `member`, `member`, `member`
-**Demo:** `link to video, deployment, or notebook`
-
-## Problem
-
-What is broken today, and why it matters in a Swiss / sovereign-infrastructure context.
-
-## Solution
-
-What you built. Two or three paragraphs, or a short list. Say explicitly how
-Apertus is used — which model, which task, what it replaces.
+💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
 
 ## How it works
 
-A short architecture note: components, data flow, external services.
-Diagrams and longer write-ups go in [`docs/`](docs/). Everything data related —
-datasets, fixtures, evaluation sets — goes in [`data/`](data/).
+Pick from 5 Academia challenges provided by Swiss institutions:
+Track 2A: ZHAW, See It, Say It, Pick It — Vision-Language Grounding for a Real Robot Arm
+Track 2A: FHGR, AI-Powered Job Interview Coach
+Track 2A: UZH, Detecting Cross-Lingual Semantic Differences in Swiss Government Websites
+Track 2A: OST, Multilingual Natural Language Inference over Swiss Official Voting Booklets
+Track 2A: OpenParlData, Extracting Parliamentary Affairs from PDFs into One Common Structure
+
+The challenges are described in our Getting Started guide:
+https://hackapertus.notion.site/getting-started-guide-onlinehack
 
 ## Run it
 
@@ -34,10 +29,19 @@ Fill in the [Makefile](Makefile) so that works on a clean checkout.
 
 Requirements: `runtime, hardware, API keys, model weights`
 
-## Status
+📦 Submission Requirements & Deliverables
+❗️ Submissions are not handled on Devpost but via this URL only: http://hackapertus.ch/online-hack/submissions
 
-What works, what is a stub, and what you would build next.
+⚖️ Judging Criteria
+The judging criteria per challenge are listed in the respective challenge description.
 
-## License
+## Support
 
-Apache-2.0 — see [LICENSE](LICENSE). All Hack Apertus projects are open-sourced.
+Licensing requirements
+Please check our Terms & Conditions (6. What you build is open source): https://hackapertus.ch/terms-and-conditions
+
+FAQ
+💡 https://hackapertus.ch/faq
+
+Contact
+💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
