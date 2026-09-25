@@ -1,43 +1,85 @@
-# Project name
+# Track 2 B: Own Project
 
-> One sentence: what it does, and for whom.
+Bring your own idea and build a working Apertus prototype that tackles a problem you care about — any domain, any use case. The project must be new, started within the hackathon period.
 
-**Track:** Apertus Readiness | Apertus Adoption
-**Event:** Online | Bern | Zurich | Basel | Lausanne | St.Gallen
-**Team:** `team name` — `member`, `member`, `member`
-**Demo:** `link to video, deployment, or notebook`
+Submissions must use the Apertus model family.
+For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, eg as automatic judges during evaluation. Their role must be clearly described in the submission report.
 
-## Problem
+💬 In case you have questions, join the conversation on [Discord](https://discord.gg/hack-apertus) or send an email to “hello@hackapertus.ch”
 
-What is broken today, and why it matters in a Swiss / sovereign-infrastructure context.
+---
 
-## Solution
+## 🔧 Resources, Tools & Support
 
-What you built. Two or three paragraphs, or a short list. Say explicitly how
-Apertus is used — which model, which task, what it replaces.
+Check our resources & tools page for detailed information:
+[https://hackapertus.notion.site/resources-tools](https://hackapertus.notion.site/resources-tools?source=copy_link)
 
-## How it works
+---
 
-A short architecture note: components, data flow, external services.
-Diagrams and longer write-ups go in [`docs/`](docs/). Everything data related —
-datasets, fixtures, evaluation sets — goes in [`data/`](data/).
+## 💻 Technical Preferences
 
-## Run it
+| Specific AI models | Apertus v1.5 — 8B or 70B |
+| --- | --- |
+| Model sources | [huggingface.co/swiss-ai/Apertus-v1.5-8B](https://huggingface.co/swiss-ai/Apertus-v1.5-8B)
+[huggingface.co/swiss-ai/Apertus-v1.5-70B](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+| Target architecture (mandatory) | Whatever you build in Track 2B must be deployable in one of these three architectures:
 
-From the root of the project:
+  a) On-premise — on the organisation's own infrastructure, under its own administration.
+  b) Air-gapped — with no external network connection at runtime.
+  c) Sovereign Swiss cloud — on a cloud platform operated in Switzerland, under Swiss jurisdiction, with Swiss data residency. |
 
-```bash
-make run
-```
+---
 
-Fill in the [Makefile](Makefile) so that works on a clean checkout.
+## 📦 Submissions & Deliverables
 
-Requirements: `runtime, hardware, API keys, model weights`
+Submissions are not handled in Devpost but under this URL:
+[http://hackapertus.ch/online-hack/submissions](http://hackapertus.ch/online-hack/submissions)
 
-## Status
+1. **Technical Report (pdf)**
+- Download the template: {LINK follows}
+- Create your technical report, save as xx.pdf
+- Format: pdf, max. 6 pages
 
-What works, what is a stub, and what you would build next.
+2. **Git repo (URL)**
+- Create a user account on Github
+**-** Clone our repo template on Github: {LINK follows}
+- Make sure repo settings are set to public.
+- Submit the URL of YOUR Git repo.
 
-## License
+3. **Demo video (URL)**
+- Max. 2 min demo video of your protoytype
 
-Apache-2.0 — see [LICENSE](LICENSE). All Hack Apertus projects are open-sourced.
+4. **Data set (URL), optional, depending on your project**
+- Create a user account on Hugging Face
+- Clone our dataset template on Hugging Face: {LINK follows}
+- Follow the instructions in the dataset README to create a data card.
+- Ensure that you use the Track 1A file format and schema for the dataset. 
+- Make sure privacy settings for HF datasets
+- Submit the URL of YOUR dataset
+
+---
+
+## ⚖️ Judging Criteria
+
+#### **1. Purposeful use of AI
+2. Technical rigour
+3. Value, cost & scalability
+4. Sovereign deployability
+5. Implementation feasibility**
+
+Judges use a Scale 0–5 per dimension.
+
+## FAQ
+
+💡 [https://hackapertus.ch/faq](https://hackapertus.ch/faq)
+
+**Q: What models can be used?**
+
+Submissions must use the Apertus model family. For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, eg as automatic judges during evaluation. Their role must be clearly described in the submission report.
+
+**Q: What are the licensing requirements?**
+
+Please check our Terms & Conditions (6. What you build is open source):
+[https://hackapertus.ch/terms-and-conditions](https://hackapertus.ch/terms-and-conditions)
+
+💬 In case you have questions, join the conversation on [Discord](https://discord.gg/hack-apertus) or send an email to “hello@hackapertus.ch”
