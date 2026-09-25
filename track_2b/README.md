@@ -61,13 +61,15 @@ Submissions are not handled in Devpost but under this URL:
 
 ## ⚖️ Judging Criteria
 
-#### **1. Purposeful use of AI
+1. Purposeful use of AI
 2. Technical rigour
 3. Value, cost & scalability
 4. Sovereign deployability
 5. Implementation feasibility**
 
 Judges use a Scale 0–5 per dimension.
+
+---
 
 ## FAQ
 
