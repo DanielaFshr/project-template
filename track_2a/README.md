@@ -29,10 +29,10 @@ Fill in the [Makefile](Makefile) so that works on a clean checkout.
 
 Requirements: `runtime, hardware, API keys, model weights`
 
-📦 Submission Requirements & Deliverables
+## 📦 Submission Requirements & Deliverables
 ❗️ Submissions are not handled on Devpost but via this URL only: http://hackapertus.ch/online-hack/submissions
 
-⚖️ Judging Criteria
+## ⚖️ Judging Criteria
 The judging criteria per challenge are listed in the respective challenge description.
 
 ## Support
@@ -40,8 +40,8 @@ The judging criteria per challenge are listed in the respective challenge descri
 Licensing requirements
 Please check our Terms & Conditions (6. What you build is open source): https://hackapertus.ch/terms-and-conditions
 
-FAQ
+## FAQ
 💡 https://hackapertus.ch/faq
 
-Contact
+## Contact
 💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
