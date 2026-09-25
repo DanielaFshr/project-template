@@ -68,12 +68,13 @@ The submission must:
 
 ### Git repo (URL)
 - Clone this repo and work in the `\track_1b` challenge directory. Delete the other track challenge directories.
+- Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
 
 ### Technical Report (pdf)
 - Update [technical_report.md](technical_report.md) in this repository with all the details for your submission.
 - Upload a pdf of your technical report to this directory, named as `TeamName_Report.pdf`.
-- Format: pdf, max. 4 pages
+- Format: pdf, max. 6 pages
 - Submit the pdf of the technical report.
 
 ### Dataset (URL)
@@ -81,9 +82,12 @@ Submitted datasets must comply with our guidelines for responsibly sourced datas
 
 - Create a user account on Hugging Face
 - Clone our dataset template on Hugging Face: https://huggingface.co/datasets/HackApertus/online_hack_template
-- Complete the data card with all required information
-- Upload your evaluation dataset and model response dataset
-- Make sure your dataset access control is set to public
+- Complete the dataset card with all required information
+- Upload your dataset. It should consist of the following components:
+    - evaluation dataset (i.e. individual test cases)
+    - model response dataset (i.e. the model response to each test case)
+    - metadata file (i.e. additional information about each test case; where relevant, this file must contain instance-level licensing information) 
+- Make sure your dataset access control is set to PUBLIC
 - Provide the URL of _your_ data set
 
 ### Reproducibility
@@ -126,6 +130,4 @@ https://hackapertus.ch/terms-and-conditions
 
 ### Contact
 
-💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
-
-❓For questions specific to challenge participation, you can send a message to support@hackapertus.ch.
+💬 In case you have questions, join the conversation on Discord. Alternatively, send an email to “hello@hackapertus.ch”.
