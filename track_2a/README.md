@@ -8,11 +8,11 @@ For Track 2 this to means that submitted solutions must be built with Apertus. O
 ## How it works
 Pick from 5 academia challenges provided by Swiss institutions:
 
-- **ZHAW:** See It, Say It, Pick It: Vision-Language Grounding for a Real Robot Arm
 - **FHGR:** AI-Powered Job Interview Coach
-- **UZH:** Detecting Cross-Lingual Semantic Differences in Swiss Government Websites
-- **OST:** Multilingual Natural Language Inference over Swiss Official Voting Booklets
 - **OpenParlData:** Extracting Parliamentary Affairs from PDFs into One Common Structure
+- **OST:** Multilingual Natural Language Inference over Swiss Official Voting Booklets
+- **UZH:** Detecting Cross-Lingual Semantic Differences in Swiss Government Websites
+- **ZHAW:** See It, Say It, Pick It: Vision-Language Grounding for a Real Robot Arm
 
 The challenges are described in our Getting Started guide:
 https://hackapertus.notion.site/getting-started-guide-onlinehack
