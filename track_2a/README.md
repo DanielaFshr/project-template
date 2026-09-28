@@ -46,7 +46,8 @@ The judging criteria per challenge are listed in the respective challenge descri
 ## Support
 
 **Licensing requirements**
-Please check our Terms & Conditions (6. What you build is open source): https://hackapertus.ch/terms-and-conditions
+Please check our Terms & Conditions (6. What you build is open source):
+https://hackapertus.ch/terms-and-conditions
 
 ## FAQ
 💡 https://hackapertus.ch/faq
