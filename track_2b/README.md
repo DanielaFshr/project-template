@@ -20,12 +20,13 @@ https://hackapertus.notion.site/resources-tools
 | Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 
-**Target architecture (mandatory)**
+##**Target architecture (mandatory)**
+
 Whatever you build in Track 2B must be deployable in one of these three architectures:
 
-a) **On-premise** — on the organisation's own infrastructure, under its own administration.
-b) **Air-gapped** — with no external network connection at runtime.
-c) **Sovereign Swiss cloud** — on a cloud platform operated in Switzerland, under Swiss jurisdiction, with Swiss data residency.
+- **a) On-premise** — on the organisation's own infrastructure, under its own administration.
+- **b) Air-gapped** — with no external network connection at runtime.
+- **c) Sovereign Swiss cloud** — on a cloud platform operated in Switzerland, under Swiss jurisdiction, with Swiss data residency.
 
 ---
 
