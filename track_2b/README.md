@@ -42,32 +42,43 @@ for git (GitHub rejects files over 100 MB), upload it to
 
 ---
 
-## 📦 Submissions & Deliverables
+## 📦 Submission Requirements & Deliverables
 
-Submissions are not handled in Devpost but under this URL:
-[http://hackapertus.ch/online-hack/submissions](http://hackapertus.ch/online-hack/submissions)
+❗️ Submissions are not handled on Devpost but via this URL only:
+http://hackapertus.ch/online-hack/submissions
 
-1. **Technical Report (pdf)**
-- Download the template: {LINK follows}
-- Create your technical report, save as xx.pdf
-- Format: pdf, max. 6 pages
+The submission must: 
+1. follow the template repo and include all prerequisite files and definitions
+2. follow the specified input/output formats
+3. run in a docker container that is launched with the specified CLI entry point 
+4. run end-to-end when judges try to run it
 
-2. **Git repo (URL)**
-- Create a user account on Github
-**-** Clone our repo template on Github: {LINK follows}
-- Make sure repo settings are set to public.
+### Git repo (URL)
+- Clone this repo and work in the `\track_1b` challenge directory. Delete the other track challenge directories.
+- Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
 
-3. **Demo video (URL)**
-- Max. 2 min demo video of your protoytype
+### Technical Report (pdf)
+- Update [technical_report.md](technical_report.md) in this repository with all the details for your submission.
+- Upload a pdf of your technical report to this directory, named as `TeamName_Report.pdf`.
+- Format: pdf, max. 6 pages
+- Submit the pdf of the technical report.
 
-4. **Data set (URL), optional, depending on your project**
+### Dataset (URL) - optional, depending on your project
+Submitted datasets must comply with our guidelines for responsibly sourced datasets.
+
 - Create a user account on Hugging Face
-- Clone our dataset template on Hugging Face: {LINK follows}
-- Follow the instructions in the dataset README to create a data card.
-- Ensure that you use the Track 1A file format and schema for the dataset. 
-- Make sure privacy settings for HF datasets
-- Submit the URL of YOUR dataset
+- Clone our dataset template on Hugging Face: https://huggingface.co/datasets/HackApertus/online_hack_template
+- Complete the dataset card with all required information
+- Upload your dataset. It should consist of the following components:
+    - evaluation dataset (i.e. individual test cases)
+    - model response dataset (i.e. the model response to each test case)
+    - metadata file (i.e. additional information about each test case; where relevant, this file must contain instance-level licensing information) 
+- Make sure your dataset access control is set to PUBLIC
+- Provide the URL of _your_ data set
+
+### Demo video (URL)
+- Max. 2 min demo video of your protoytype
 
 ---
 
@@ -83,17 +94,14 @@ Judges use a Scale 0–5 per dimension.
 
 ---
 
-## FAQ
+## Support
 
-💡 [https://hackapertus.ch/faq](https://hackapertus.ch/faq)
-
-**Q: What models can be used?**
-
-Submissions must use the Apertus model family. For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, eg as automatic judges during evaluation. Their role must be clearly described in the submission report.
-
-**Q: What are the licensing requirements?**
-
+**Licensing requirements**
 Please check our Terms & Conditions (6. What you build is open source):
-[https://hackapertus.ch/terms-and-conditions](https://hackapertus.ch/terms-and-conditions)
+https://hackapertus.ch/terms-and-conditions
 
-💬 In case you have questions, join the conversation on [Discord](https://discord.gg/hack-apertus) or send an email to “hello@hackapertus.ch”
+## FAQ
+💡 https://hackapertus.ch/faq
+
+## Contact
+💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
