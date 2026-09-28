@@ -46,7 +46,7 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 ### Git repo (URL)
 - Clone this repo and work in the `\track_1a` challenge directory. Delete the other track challenge directories.
 - Set the repo to PRIVATE (Settings --> Collaborators --> Manage Visibility)
-- Add user hackapertus as collaborator (Settings --> Collaborators --> Add people)
+- Add user [hackapertus](https://github.com/judgeailights) as collaborator (Settings --> Collaborators --> Add people)
 - Submit the URL of _your_ Git repo.
 
 ### Technical Report (pdf)
