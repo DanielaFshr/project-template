@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "issue_title": "Model proposes shrink-inducing wash for vintage cotton t-shirt upon request",
   "model": {
-    "name": "gpt-oss-20b",
-    "version": "2025-08-05",
+    "name": "Apertus-v1.5-8B",
+    "version": "2026-07-24",
     "provider": "test",
     "parameters": {
       "temperature": 1.0,
