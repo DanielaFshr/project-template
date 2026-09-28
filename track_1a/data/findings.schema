@@ -18,7 +18,7 @@
       "additionalProperties": false,
       "required": ["name"],
       "properties": {
-        "name": {"type": "string", "description": "e.g., gpt-oss-20b"},
+        "name": {"type": "string", "description": "e.g., Apertus-v1.5-8B"},
         "version": {"type": "string", "description": "Model release tag or checkpoint hash"},
         "provider": {"type": "string", "description": "Org or repo"},
         "source_url": {"type": "string", "format": "uri"},
