@@ -39,6 +39,9 @@ All relevant details related to dataset quality, ethics, licensing and legal con
 ### Method
 Evaluation method clearly described.
 
+### Evaluation setup and inference parameters
+Setup instructions and parameters for reproducing evaluation results clearly described.
+
 ### Results
 Evaluation results clearly presented.
 
