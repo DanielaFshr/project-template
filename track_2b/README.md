@@ -9,13 +9,6 @@ For Track 2 this to means that submitted solutions must be built with Apertus. O
 
 ---
 
-## 🔧 Resources, Tools & Support
-
-Check our resources & tools page for detailed information:
-[https://hackapertus.notion.site/resources-tools](https://hackapertus.notion.site/resources-tools?source=copy_link)
-
----
-
 ## 🔧 Resources & Tools
 
 Check our resources & tools page for detailed information:
