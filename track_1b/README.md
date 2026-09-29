@@ -50,8 +50,8 @@ https://hackapertus.notion.site/resources-tools
 
 | Models           | URL                                      |
 |------------------|------------------------------------------|
-| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
-| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](https://huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
+| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 ---
 
@@ -63,11 +63,12 @@ http://hackapertus.ch/online-hack/submissions
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
 2. follow the specified input/output formats
-3. run in a docker container that is launched with the specified CLI entry point 
+3. run in a Docker container, launched with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 ### Git repo (URL)
-- Create your repo from this template, then move the contents of `track_1b/` to the root of your repo and delete all the `track_*` directories. Your repo root is your project root: judges run `make run` from there.
+- Create your repo from this template (**Use this template**) and work in the `track_1b/` challenge directory. Delete the other track challenge directories.
+- Keep `track_1b/` as it is: don't rename it or move its files.
 - Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
 

@@ -25,8 +25,8 @@ https://hackapertus.notion.site/resources-tools
 
 | Models           | URL                                      |
 |------------------|------------------------------------------|
-| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
-| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](https://huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
+| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 ---
 
@@ -37,14 +37,15 @@ http://hackapertus.ch/online-hack/submissions
 
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
-2. include all relevant findings files in `\track_1a\data` with each file following the specified schema
-3. run in a docker container that is launched with the specified CLI entry point 
+2. include all relevant findings files in `data/` with each file following the specified schema
+3. run in a Docker container, launched with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 Your findings files must be shared under a CDLA-Permissive-2.0 license. However, submissions must be kept private until 1 December 2026.
 
 ### Git repo (URL)
-- Create your repo from this template, then move the contents of `track_1a/` to the root of your repo and delete all the `track_*` directories. Your repo root is your project root: judges run `make run` from there.
+- Create your repo from this template (**Use this template**) and work in the `track_1a/` challenge directory. Delete the other track challenge directories.
+- Keep `track_1a/` as it is: don't rename it or move its files.
 - Set the repo to PRIVATE (Settings --> Collaborators --> Manage Visibility)
 - Add user [judgeailights](https://github.com/judgeailights) as collaborator (Settings --> Collaborators --> Add people)
 - Submit the URL of _your_ Git repo.
@@ -58,7 +59,7 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 ### Findings Dataset
 - This challenge follows the submission format of the [Red‑Teaming Challenge - OpenAI gpt-oss-20b](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
 - Each issue must be captured in its own findings file (adapted from Red-Teaming Challenge).
-- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](example_findings.json)
+- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [data/example_findings.json](data/example_findings.json)
 - A submission can consist of up to 5 findings files.
 
 ### Reproducibility

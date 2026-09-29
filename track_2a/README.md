@@ -1,7 +1,7 @@
 # Academia Challenges
 
 Submissions must use the Apertus model family.
-For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, e.g as automatic judges during evaluation. Their role must be clearly described in the submission report.
+For Track 2 this means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, e.g. as automatic judges during evaluation. Their role must be clearly described in the submission report.
 
 💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
 
@@ -19,9 +19,8 @@ https://hackapertus.notion.site/getting-started-guide-onlinehack
 
 ## Run it
 
-Move the contents of `track_2a/` to the root of your repo and delete all the
-`track_*` directories. Your repo root is your project root: judges run
-`make run` from there.
+Keep `track_2a/` as it is: don't rename it or move its files, just delete the
+other track directories.
 
 From the root of the project:
 
@@ -29,16 +28,15 @@ From the root of the project:
 make run
 ```
 
-Fill in the [Makefile](Makefile) so that works on a clean checkout.
+Fill in the [Makefile](Makefile) so that it works on a clean checkout. It must
+work in a fresh sandbox (e.g. a Docker container) without relying on anything
+already installed on your machine.
 
 Requirements: `runtime, hardware, API keys, model weights`
 
 ## Data
 
-Store your data in `data/` and commit it with your project. If it is too big
-for git (GitHub rejects files over 100 MB), upload it to
-[Hugging Face](https://huggingface.co/) instead and link it from
-`technical_report.md`, together with where the data came from.
+The `data/` directory must not be more than 100 MB.
 
 ## 📦 Submission Requirements & Deliverables
 ❗️ Submissions are not handled on Devpost but via our website only:
