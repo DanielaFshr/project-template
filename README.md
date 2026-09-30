@@ -27,6 +27,7 @@ below.
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
 | `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only; max. 100 MB |
+| `findings/` | Issue files — `track_1a` only |
 | `docs/` | Diagrams, notes, longer write-ups |
 
 ## Run it
