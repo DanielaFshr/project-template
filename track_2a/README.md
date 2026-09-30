@@ -6,7 +6,7 @@ For Track 2 this means that submitted solutions must be built with Apertus. Othe
 💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
 
 ## How it works
-Pick from 5 academia challenges provided by Swiss institutions:
+Pick from 5 academia challenges provided by Swiss academic institutions:
 
 - **FHGR:** AI-Powered Job Interview Coach
 - **OpenParlData:** Extracting Parliamentary Affairs from PDFs into One Common Structure
@@ -38,12 +38,17 @@ Requirements: `runtime, hardware, API keys, model weights`
 
 The `data/` directory must not be more than 100 MB.
 
+
 ## 📦 Submission Requirements & Deliverables
-❗️ Submissions are not handled on Devpost but via our website only:
+❗️ Submissions are not handled on Devpost. Submit through our website only:
 http://hackapertus.ch/online-hack/submissions
 
+Requirements differ by challenge. See the description of the challenge you are entering for the exact deliverables.
+
+
 ## ⚖️ Judging Criteria
-The judging criteria per challenge are listed in the respective challenge description.
+Judging criteria also differ by challenge. See the respective challenge description.
+
 
 ## Support
 
