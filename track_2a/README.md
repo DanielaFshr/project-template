@@ -35,8 +35,7 @@ already installed on your machine.
 Requirements: `runtime, hardware, API keys, model weights`
 
 ## Data
-
-The `data/` directory must not be more than 100 MB.
+The `data/` directory must not exceed 100 MB.
 
 
 ## 📦 Submission Requirements & Deliverables
