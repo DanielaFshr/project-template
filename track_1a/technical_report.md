@@ -48,6 +48,6 @@ What a judge needs to get your numbers back: hardware, runtime, seeds, and the e
 
 ## License
 
-Apache-2.0 — see [LICENSE](../LICENSE). All HackApertus projects are open-sourced.
+Creative Commons Attribution 4.0 (CC-BY-4.0). All HackApertus projects are open-sourced.
 
 ## References
