@@ -57,9 +57,8 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 - Submit the pdf of the technical report.
 
 ### Findings Dataset
-- This challenge follows the submission format of the [Red‑Teaming Challenge - OpenAI gpt-oss-20b](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
-- Each issue must be captured in its own findings file (adapted from Red-Teaming Challenge).
-- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [data/example_findings.json](data/example_findings.json)
+- Each issue must be captured in its own findings file [adapted from Kaggle Red‑Teaming Challenge](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
+- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [findings/example_findings.json](findings/example_findings.json)
 - A submission can consist of up to 5 findings files.
 
 ### Reproducibility
