@@ -32,7 +32,7 @@ Whatever you build in Track 2B must be deployable in one of these three architec
 
 ## Data
 
-The `data/` directory must not be more than 100 MB.
+The `data/` directory must not exceed 100 MB.
 
 ---
 
@@ -59,6 +59,9 @@ The submission must:
 - Format: pdf, max. 6 pages
 - Submit the pdf of the technical report.
 
+### Demo video (URL)
+- Max. 2 min demo video of your prototype
+
 ### Dataset (URL) - optional, depending on your project
 Submitted datasets must comply with our guidelines for responsibly sourced datasets.
 
@@ -72,8 +75,6 @@ Submitted datasets must comply with our guidelines for responsibly sourced datas
 - Make sure your dataset access control is set to PUBLIC
 - Provide the URL of _your_ data set
 
-### Demo video (URL)
-- Max. 2 min demo video of your prototype
 
 ---
 
