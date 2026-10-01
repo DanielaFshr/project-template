@@ -40,6 +40,13 @@ make run
 
 `make run` is expected to run the project using Docker, since that
 is how the judges will run it.
+- If you used other local open-weight models, include instructions for running the project in your technical report.
+- Use the following environment variables:
+```
+LLM_NAME — name and version of the model
+LLM_BASE_URL — endpoint base URL
+LLM_API_KEY — your API key
+```
 
 ## Getting started
 
