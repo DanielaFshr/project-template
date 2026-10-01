@@ -38,7 +38,7 @@ Judges run `make run` from the root of the project, on a clean checkout:
 make run
 ```
 
-`make run` is expected to run the project in a Docker container, since that
+`make run` is expected to run the project using Docker, since that
 is how the judges will run it.
 
 ## Getting started
