@@ -28,9 +28,9 @@ From the root of the project:
 make run
 ```
 
-Fill in the [Makefile](Makefile) so that it works on a clean checkout. It must
-work in a fresh sandbox (e.g. a Docker container) without relying on anything
-already installed on your machine.
+Fill in the [Makefile](Makefile) so that it works on a clean checkout. It is
+expected to run the project in a Docker container, since that is how the judges
+will run it, without relying on anything already installed on your machine.
 
 Requirements: `runtime, hardware, API keys, model weights`
 
